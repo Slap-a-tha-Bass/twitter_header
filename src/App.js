@@ -5,8 +5,9 @@ const ContainerDiv = styled.div`
   position: absolute;
   height: 500px;
   width: 1500px;
-  background-color: rgb(39, 40, 140);
-  color: whitesmoke;
+  background-color: rgb(250,250,250);
+  color: black;
+  margin-top: 1rem;
 `;
 const LgTriangleUpBack = styled.div`
   position: absolute;
@@ -19,14 +20,14 @@ const LgTriangleUpFront = styled.div`
   position: absolute;
   border-left: 10rem transparent solid;
   border-right: 10rem transparent solid;
-  border-bottom: 19.875rem solid rgb(39, 40, 140);
+  border-bottom: 19.875rem solid rgb(250,250,250);
   margin-left: 3rem;
   margin-top: 1rem;
 `;
 const LgSquare = styled.div`
   position: absolute;
   border: 0.675rem solid black;
-  background-color: rgb(39, 40, 140);
+  background-color: rgb(250,250,250);
   height: 20rem;
   width: 20rem;
   margin-left: 23.75rem;
@@ -35,7 +36,7 @@ const LgCircle = styled.div`
   position: absolute;
   border: 0.675rem solid black;
   border-radius: 25rem;
-  background-color: rgb(39, 40, 140);
+  background-color: rgb(250,250,250);
   height: 20rem;
   width: 20rem;
   margin-left: 45rem;
@@ -51,7 +52,7 @@ const XTopFront = styled.div`
   position: absolute;
   border-left: 10rem solid transparent;
   border-right: 10rem solid transparent;
-  border-top: 10rem solid rgb(39, 40, 140);
+  border-top: 10rem solid rgb(250,250,250);
   margin-left: 65rem;
 `;
 const XBottomBack = styled.div`
@@ -66,7 +67,7 @@ const XBottomFront = styled.div`
   position: absolute;
   border-left: 10rem solid transparent;
   border-right: 10rem solid transparent;
-  border-bottom: 10rem solid rgb(39, 40, 140);
+  border-bottom: 10rem solid rgb(250,250,250);
   margin-left: 65rem;
   margin-top: 11rem;
 `;
@@ -173,15 +174,15 @@ const TextDiv = styled.div`
   width: 60rem;
   height: 0.5rem;
   background-color: rgba(39, 40, 140, 0.001);
-  margin-top: 19rem;
-  margin-left: 34rem;
+  margin-top: 18.5rem;
+  margin-left: 33rem;
 `
 const TextFont = styled.p`
   position: relative;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 3rem;
-  font-weight: 200;
-  color: rgba(240,240,240,0.6);
+  font-weight: 300;
+  color: black;
 
 `
 const App = () => {
